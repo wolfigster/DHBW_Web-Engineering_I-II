@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Formular</title>
+</head>
+<body>
+<form action="nicePHP.php" method="post">
+    <label for="vn_name">Name:
+        <input id="vn_name" type="text" placeholder="Vor- & Nachname" name="vn_name"><br>
+        </label>
+    <label for="mail">Mail:
+        <input id="mail" type="email" placeholder="Mailadresse" required name="mail"><br>
+    </label>
+    <label for="kommentar">Kommentar:
+        <textarea id="kommentar" placeholder="Ihr Kommentar" required name="kommentar"></textarea><br>
+    </label>
+    <button type="submit">Absenden</button><button type="reset">Zurücksetzen</button>
+</form>
+
+</body>
+</html>

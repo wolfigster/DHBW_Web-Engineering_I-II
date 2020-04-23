@@ -1,0 +1,119 @@
+/* formular.html */
+input {
+    display: block;
+    border: 1px dotted #000000;
+    margin-bottom: 10px;
+    padding: 3px;
+}
+
+input[required] {
+    background-color: #ffff00;
+    border: 1px solid #000000;
+}
+
+input[type="password"] {
+    color: #ff5555;
+}
+
+
+/* links.html */
+/*
+a[href ^="http"] {
+    background-image: url(http://wierbicki.org/files/img/ext.png);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: 100% 50%;
+    padding-right: 20px;
+}
+*/
+a[href ^="http"] {
+    background: url(http://wierbicki.org/files/img/ext.png) no-repeat 100% 50% / 15px;
+    padding-right: 20px;
+}
+
+a[href $=".css"] {
+    background: url(http://wierbicki.org/files/img/pdf.png) no-repeat 0% 50% / 15px;
+    padding-left: 20px;
+}
+
+a:link {
+    background-color: #0000ff;
+    color: #FFFFFF;
+}
+
+a:visited {
+    background-color: #00FFFF;
+    color: #FFFFFF;
+}
+
+a:hover {
+    background-color: #FF0000;
+    color: #FFFFFF;
+}
+
+a:active {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+/* Luder Vögeln Hurensöhne Am (billigsten) */
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* target.html */
+#a:target, #b:target, #c:target {
+    background-color: #FF0000;
+}
+
+/* nice.html */
+li:first-child {
+    background-color: #00FF00;
+}
+
+li:last-child {
+    background-color: #FF00FF;
+}
+
+li:nth-child(3) {
+    background-color: #FFF000;
+}
+
+li:nth-child(2n) {
+    background-color: #FF0000;
+}
+
+/* formulardiezweite */
+input::placeholder {
+    font-family: Georgia, serif;
+}
+
+p::before {
+    content: "Die ";
+    color: red;
+}
+
+p::after {
+    content: " geht unter.";
+    color: blue;
+}
+
+/* tabelle.html */
+table {
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid lightgray;
+    padding: 10px;
+}
+th {
+    background-color: deepskyblue;
+    color: white;
+}
+tr:nth-child(odd) {
+    background-color: #EFEFEF;
+}

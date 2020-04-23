@@ -1,0 +1,30 @@
+body {
+    background-color: #FFCC66;
+    background-image: url("bilder/post.png");
+    background-repeat: no-repeat;
+    font-style: italic;
+}
+
+div {
+    transform: rotate(353deg);
+    //border: 1px inset #FFCC00;
+    width: 190px;
+    height: 200px;
+    margin-top: 55px;
+    margin-left: 20px;
+    font-family: "Comic Sans MS", serif;
+    cursor: url("bilder/hand.png"), auto;
+    font-size: 13px;
+    line-height: 25px;
+}
+
+strong {
+    font-size: 23px;
+    font-variant: small-caps;
+    color: #ff5555;
+}
+
+span {
+    font-weight: bold;
+    color: #ff5555;
+}
